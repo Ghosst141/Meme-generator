@@ -1,0 +1,91 @@
+.card{
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 1.5rem;
+}
+.card-img{
+  height: 75%;
+  width: 100%;
+}
+.meme-img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.card-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.meme-title{
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.edit{
+  height: 30px;
+  width: 60px;
+  background-color: rgb(66, 66, 255);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edit:active{
+  background-color: rgb(48, 48, 255);
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.edit-box{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box{
+  display: flex;
+  border: 1px solid black;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.edit-img{
+  width: 350px;
+  margin: 0 auto;
+}
+.add-text{
+  height: 2.5rem;
+  width: 6rem;
+  background-color: rgb(66, 66, 255);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.75rem;
+}
+.add-text:active{
+  background-color: rgb(48, 48, 255);
+}
+.save{
+  height: 2.5rem;
+  width: 6rem;
+  background-color: rgb(55, 230, 90);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+}
+.save:active{
+  background-color: rgb(42, 188, 72);
+}
